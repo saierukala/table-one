@@ -1,0 +1,78 @@
+.container {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 80px;
+  justify-content: center;
+  background-color: white;
+  display: "flexbox";
+  align-items: center;
+}
+
+.text {
+  height: 10px;
+  width: 150px;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.card {
+  height: 500;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+}
+/* .date {
+  margin-right: 20px;
+  margin-top: 10px;
+} */
+
+.text {
+  /* Define your default styles for the text input fields */
+  /* For example: */
+  border: 1px solid #ccc;
+  padding: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.error.text {
+  /* Define styles for the text input fields when an error is present */
+  border-color: red; /* Change the border color to red */
+}
+
+.box2 {
+  height: 50px;
+  justify-content: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: black;
+  color: aliceblue;
+  align-items: center;
+  width: 100px;
+  gap: 40px;
+  margin-left: 110px;
+}
+
+.box1 {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: darkgoldenrod;
+  cursor: pointer;
+  transition: color 0.3s ease, filter 0.3s ease; /* Smooth transition effect for color and filter */
+}
+.icon:hover {
+  color: lightgoldenrodyellow; /* Change the color on hover */
+  filter: brightness(1.2) saturate(1.5); /* Increase brightness and saturation on hover */
+}
+
+.top-section {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  margin: 10px;
+  height: 100px;
+}
